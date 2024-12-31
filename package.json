@@ -5,7 +5,8 @@
   "author": "ZhouJihao <249662605@qq.com>",
   "private": true,
   "scripts": {
-    "start": "node build/dev-server.js"
+    "build": "yarn install",
+    "start": "yarn start"
   },
   "dependencies": {
     "@tonejs/midi": "^2.0.27",
