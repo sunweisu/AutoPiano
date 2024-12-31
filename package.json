@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "yarn install",
-    "start": "node build/dev-server.js"
+    "start": "yarn start"
   },
   "dependencies": {
     "@tonejs/midi": "^2.0.27",
